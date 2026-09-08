@@ -3,10 +3,8 @@
 ## Core Vision
 This project simulates an industry-grade seller fraud detection system for a
 payment facilitator / online marketplace (PayPal, Amazon Payments, Stripe-style
-seller risk). It is built as a production simulation, not a Kaggle competition —
-the goal is to reproduce the end-to-end thinking, tooling, and trade-offs of a
-real Seller Risk / Fraud Strategy team, from business problem to deployed
-decisioning logic.
+seller risk). It is built as a production simulation, the goal is to reproduce the end-to-end thinking,tooling, and trade-offs of a
+real Seller Risk / Fraud Strategy team, from business problem to deployed decisioning logic.
 
 ## What This Project Demonstrates
 The objective was not to maximize a model's AUC on a static dataset. It was to
@@ -20,7 +18,7 @@ production.
 
 ## Scope
 **In scope:**
-- Early-lifecycle seller fraud (Day 0 to ~90 days)
+- Early-lifecycle seller fraud (Day 0 to 90 days)
 - Full loop: business understanding through deployment simulation
 
 **Out of scope:**
