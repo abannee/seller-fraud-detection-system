@@ -1,4 +1,4 @@
-# Day 1 — Project Vision
+# Project Vision
 
 ## Core Vision
 This project simulates an industry-grade seller fraud detection system for a
