@@ -1,4 +1,4 @@
-# Day 2 — Business Understanding
+# Business Understanding
 
 ## Stakeholder Map
 - Risk — owns loss reduction; measured on fraud loss rate and capture rate; wants tighter controls
