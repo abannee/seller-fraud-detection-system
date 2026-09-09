@@ -1,4 +1,4 @@
-# 8 — Feature Engineering
+# Feature Engineering
 
 ## Point-in-Time Discipline
 Every feature is computed using only events within 90 days of a seller's own
