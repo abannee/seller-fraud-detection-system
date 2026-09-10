@@ -1,17 +1,13 @@
 # Seller Fraud Detection System
-### Early-lifecycle fraud strategy & ML for a PayPal/marketplace-style seller risk program
+### Early-lifecycle fraud strategy & ML for a marketplace-style seller risk program
 
 ## Overview
 This project simulates an industry-grade seller fraud detection system for a payment
-facilitator / online marketplace (PayPal, Amazon Payments, Stripe-style seller risk).
-It is built as a **production simulation**, not a Kaggle competition — the goal is to
+facilitator / online marketplace. It is built as a **production simulation**, — the goal is to
 reproduce the end-to-end thinking, tooling, and trade-offs of a real Seller Risk /
 Fraud Strategy team, from business problem to deployed decisioning logic.
 
-The project is inspired by ~10 years of hands-on experience in seller risk strategy,
-fraud modeling, and AML/transaction analytics across marketplace and payments
-businesses. No proprietary data, models, or code from any employer is used here —
-all data is synthetic or public, and all logic is rebuilt from first principles.
+No proprietary data, models, or code is used here — all data is synthetic or public, and all logic is rebuilt from first principles.
 
 ## Business Problem
 Marketplaces and payment facilitators onboard sellers continuously, and a meaningful
