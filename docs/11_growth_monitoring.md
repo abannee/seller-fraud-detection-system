@@ -23,3 +23,21 @@ A single trajectory-based signal generalizes across two typologies that
 previously needed separate narrow features (payout_lag_days for bust-out,
 behavior_change_index for account-takeover) — evaluated against the
 existing labels for validation.
+
+## Verified Output (mean max 7-day percentile jump by type)
+| Type | Value |
+|---|---|
+| none (legit) | 0.500 |
+| account_takeover | 0.688 |
+| bust_out | 0.702 |
+| collusion | 0.645 |
+| stolen_goods | 0.725 |
+| triangulation | 0.797 |
+| synthetic_identity | 0.196 |
+
+Elevated for all revenue-generating fraud types as expected. Synthetic
+identity sits below baseline rather than elevated -- these accounts rarely
+generate real transaction volume (docs/05), so there is little trajectory
+to jump. Consistent with docs/09's coverage map: synthetic identity is
+better covered by identity_consistency_score/email_domain_age_days than
+by growth-based signals.
